@@ -13,11 +13,14 @@ body {
 .title {
     text-align: center;
     color: white;
+    margin: 30px 0;
+    font-size: 2.5rem;
 }
 
 .main {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .img-div {
@@ -32,5 +35,36 @@ body {
 
 .img-div img {
     max-height: 90%;
-    width: auto;
+}
+
+#img-caption p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.tribute-info {
+    color: white;
+    width: 700px;
+    margin: 50px 0;
+    font-size: 1.4rem;
+}
+
+.tribute-info-h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: white dashed 1px;
+}
+
+.tribute-info li {
+    margin: 10px 0;
+}
+
+.tribute-link {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.tribute-link a {
+    color: gray;
 }
